@@ -17,3 +17,8 @@ print("bool(%s) = %s"%(a, bool(a)))
 
 print("sin %s = %s"%(a, math.sin(a)))
 print("%s ** %s = %s"%(a, b, a**b))
+
+def add(a, b):
+    return a + b
+
+print("add(%s, %s) = %s"%(a, b, add(a, b)))
