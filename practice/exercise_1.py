@@ -30,7 +30,7 @@ def compare_age(a_name, a_age,b_name, b_age):
     '''
     unit = "year"
     if a_age > b_age:
-        print(f"{a_name} is older than {b_name} {int(a_age)-int(b_age)}{unit})")
+        print(f"{a_name} is older than {b_name} {int(a_age)-int(b_age)} {unit})")
     elif a_age < b_age:
         print(f"{b_name} is older than {a_name} {int(b_age)-int(a_age)}{unit}")
     else:
