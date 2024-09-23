@@ -1,0 +1,22 @@
+# %%
+# A variable that is declared in the main program is available
+# anywhere within the program including within functions
+# BUT a locally defined variable with the same name overrides
+# the global definition
+
+
+# A variable that is declared in the main program is available anywhere within the program
+# including within functions
+
+newVar = 12.69
+
+def thisIsATest():
+    newVar = 55.6
+    print("In thisIsATest, newVar is ", newVar)
+
+thisIsATest()
+
+print("In main, newVar is ", newVar)
+
+
+# %%
