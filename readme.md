@@ -11,4 +11,4 @@ This repo is where I kept my assignments and practice code from **CEE 12746** at
 - Object-oriented programming & GUI  
 - File handling & databases  
 
-Taught by **Susan Finger & Meg Rechiards**.
+Taught by **Prof. Susan Finger & Meg Rechiards**.
